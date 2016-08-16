@@ -11,4 +11,4 @@ git/gitconfig.local.symlink
 
 vim/.netrwhist
 vim/bundle/*
-!vim/bundle/vundle
+!vim/bundle/vundle/*
