@@ -15,13 +15,11 @@
       "tmp"
       "vendor"
     ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
   editor:
-    fontFamily: "Menlo"
+    fontFamily: "Meslo LG L DZ"
+    fontSize: 12
     invisibles: {}
+    lineHeight: 1.8
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
   "go-plus":

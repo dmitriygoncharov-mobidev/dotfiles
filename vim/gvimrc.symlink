@@ -7,6 +7,7 @@ if has("gui_macvim")
   set noballooneval
   set linespace=3
   colorscheme onedark
+"  colorscheme railscasts
 "  resize current buffer by +/- 5
   nnoremap <M-Right> :vertical resize +5<CR>
   nnoremap <M-Left>  :vertical resize -5<CR>

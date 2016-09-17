@@ -28,6 +28,7 @@ Plugin 'pangloss/vim-javascript'
 " }}}
 " Fonts & Colors {{{
 colorscheme onedark
+"colorscheme railscasts
 set guifont=Meslo\ LG\ S\ Regular\ for\ Powerline\ Nerd\ Font\ Complete:h12
 " }}}
 " Tabs & Spaces {{{

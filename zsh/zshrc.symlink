@@ -72,6 +72,9 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+#RBENV
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 # LUNCHY
 LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
 if [ -f $LUNCHY_DIR/lunchy-completion.zsh ]; then 
@@ -107,6 +110,8 @@ alias intotackle="cd $GROWTHHACKERS/tackle"
  alias dockerclean='dockercleanc || true && dockercleani'
 # # Delete all
  alias dockercleanup='dockerkillall || true && dockercleanc || true && dockercleani'
+
+alias ctags="`brew --prefix`/bin/ctags"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export ANDROID_HOME=/usr/local/opt/android-sdk
