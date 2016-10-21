@@ -110,7 +110,7 @@ alias intotackle="cd $GROWTHHACKERS/tackle"
  alias dockerclean='dockercleanc || true && dockercleani'
 # # Delete all
  alias dockercleanup='dockerkillall || true && dockercleanc || true && dockercleani'
-
+alias dcg="docker-compose -f docker-compose.yml -f docker-compose.dev.yml -f docker-compose.mac.yml"
 alias ctags="`brew --prefix`/bin/ctags"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
