@@ -50,7 +50,7 @@ cask 'vlc'
 cask 'gitkraken'
 cask 'skype'
 cask 'teamviewer'
-cask 'vagrant
+cask 'vagrant'
 cask 'genymotion'
 cask 'sqlectron'
 cask 'diskwave'

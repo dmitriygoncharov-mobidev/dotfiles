@@ -9,6 +9,9 @@ atom.symlink/themes
 
 git/gitconfig.local.symlink
 
+ssh.symlink/dgoncharov*
+ssh.symlink/known_hosts
+
 vim/.netrwhist
 vim/bundle
 !vim/bundle/vundle
