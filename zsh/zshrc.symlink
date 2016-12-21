@@ -110,13 +110,13 @@ alias intotackle="cd $GROWTHHACKERS/tackle"
  alias dockerclean='dockercleanc || true && dockercleani'
 # # Delete all
  alias dockercleanup='dockerkillall || true && dockercleanc || true && dockercleani'
-# alias dcg="docker-compose -f docker-compose.yml -f docker-compose.dev.yml -f docker-compose.mac.yml"
 alias dcg="docker-compose -f docker-compose.yml -f docker-compose.dev.yml"
+# alias dcg="docker-compose -f docker-compose.yml -f docker-compose.dev.yml -f docker-compose.mac.yml"
 alias ctags="`brew --prefix`/bin/ctags"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export ANDROID_HOME=/usr/local/opt/android-sdk
 export PATH="$PATH:$ANDROID_HOME/bin"
-export GH_TEAM_GITHUB_TOKEN=5544714a8b6b47a1e10724267fc6906c52c18c08
-
+#export GH_TEAM_GITHUB_TOKEN=5544714a8b6b47a1e10724267fc6906c52c18c08
+export GH_TEAM_GITHUB_TOKEN=989a68dae7ac1e2d2b0bd6a685e92e5895aa69f6
 #test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

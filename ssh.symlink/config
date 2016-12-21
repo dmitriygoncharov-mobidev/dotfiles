@@ -1,12 +1,18 @@
-#Default GITHUB
+# Default GITHUB
 Host int18h.github.com
 	HostName github.com
     PreferredAuthentications publickey
 	User git
 	IdentityFile ~/.ssh/dgoncharov
-#Mobidev GITHUB
+# Mobidev GITHUB
 Host mobidev.github.com
 	HostName github.com
     PreferredAuthentications publickey
 	User git
 	IdentityFile ~/.ssh/dgoncharov_mobidev
+# MobiDev GitLab
+Host gitlab.mobidev.biz
+    HostName gitlab.mobidev.biz
+    PreferredAuthentications publickey
+    User git
+    IdentityFile ~/.ssh/dgoncharov_mobidev

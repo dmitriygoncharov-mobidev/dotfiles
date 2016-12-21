@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/vundle/
 set rtp+=~/.vim/bundle/ctrlp.vim
 call vundle#rc()
 " Vundle {{{
-Bundle 'gmarik/vundle'
+"Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-fugitive'
@@ -25,11 +25,13 @@ Bundle 'majutsushi/tagbar'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'mattn/emmet-vim'
 Plugin 'pangloss/vim-javascript'
+Plugin 'dracula/vim'
 " }}}
 " Fonts & Colors {{{
-colorscheme onedark
-"colorscheme railscasts
-set guifont=Meslo\ LG\ S\ Regular\ for\ Powerline\ Nerd\ Font\ Complete:h12
+" colorscheme onedark
+" colorscheme railscasts
+colors darcula
+" set guifont=Meslo\ LG\ S\ Regular\ for\ Powerline\ Nerd\ Font\ Complete:h12
 " }}}
 " Tabs & Spaces {{{
 set tabstop=4               " number of visual spaces per TAB
